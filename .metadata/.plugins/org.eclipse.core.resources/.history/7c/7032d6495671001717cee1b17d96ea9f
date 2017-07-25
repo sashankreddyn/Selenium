@@ -13,7 +13,6 @@ public class FirstSample {
 		driver.get("http://www.google.com");
 		System.out.println(driver.getTitle());
 		driver.close();
-		driver.quit();
 	}
 
 }
